@@ -26,6 +26,5 @@ steps:
     publishWebProjects: True
     arguments: '--configuration $(buildConfiguration) --output $ (Build.ArtifactStagingDirecytory)'
     zipAfterPublish: True
-
 - task: PublishBuildArtifacts@1
   displayName: 'publish artifacts'
